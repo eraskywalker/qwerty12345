@@ -104,3 +104,28 @@ article h3 {
 article p {
     line-height: 1.5;
 }
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 8vw;
+    color: #f4f0e8;
+    background: #16222e;
+}
+
+.site-footer a {
+    color: #f4f0e8;
+}
+
+@media (max-width: 640px) {
+    .site-header,
+    .site-footer {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .topic-list {
+        grid-template-columns: 1fr;
+    }
+}
