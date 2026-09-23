@@ -40,3 +40,67 @@ nav {
     display: flex;
     gap: 1.5rem;
 }
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5rem 8vw;
+}
+
+.hero {
+    max-width: 680px;
+    padding-bottom: 4rem;
+}
+
+.eyebrow {
+    margin-bottom: 1rem;
+    color: #bb4d36;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    line-height: 1.1;
+}
+
+.hero > p:last-child {
+    max-width: 48ch;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.topics {
+    padding-top: 2rem;
+    border-top: 1px solid #c9c0b1;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.topic-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+article {
+    padding: 1.5rem;
+    border: 1px solid #c9c0b1;
+    background: #fffaf1;
+}
+
+article h3 {
+    margin-bottom: 0.75rem;
+    color: #bb4d36;
+}
+
+article p {
+    line-height: 1.5;
+}
