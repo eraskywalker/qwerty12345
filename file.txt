@@ -1,2 +1,3 @@
 line 1
 feature version
+Branch exercise: new-branch created for GitHub, GitLab, and Bitbucket.
